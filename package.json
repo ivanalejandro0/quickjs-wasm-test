@@ -1,0 +1,14 @@
+{
+  "name": "quickjs-wasm-test",
+  "version": "0.1.0",
+  "description": "QuickJS running on WASM test",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "quickjs-emscripten": "0.2.0"
+  },
+  "keywords": ["javascript", "wasm", "webassembly", "sandbox", "quickjs"]
+}
